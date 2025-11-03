@@ -2,17 +2,17 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12.7-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Playwright-1.49-6BAF92" />
-  <img src="https://img.shields.io/badge/BeautifulSoup-4.12-6BAF92" />
+  <img src="https://img.shields.io/badge/Playwright-1.49-3776AB" />
+  <img src="https://img.shields.io/badge/BeautifulSoup-4.12-3776AB" />
   <img src="https://img.shields.io/badge/License-MIT-6BAF92.svg" />
   <img src="https://img.shields.io/badge/Status-Active-success-2EAD33.svg" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/Seysane/pracuj_offer_scraper.svg?color=6BAF92" />
-  <img src="https://img.shields.io/github/forks/Seysane/pracuj_offer_scraper.svg?color=6BAF92" />
-  <img src="https://img.shields.io/github/issues/Seysane/pracuj_offer_scraper.svg?color=6BAF92" />
-  <img src="https://img.shields.io/github/last-commit/Seysane/pracuj_offer_scraper.svg?color=6BAF92" />
+  <img src="https://img.shields.io/github/stars/Seysane/pracuj_offer_scraper.svg?color=3776AB" />
+  <img src="https://img.shields.io/github/forks/Seysane/pracuj_offer_scraper.svg?color=3776AB" />
+  <img src="https://img.shields.io/github/issues/Seysane/pracuj_offer_scraper.svg?color=cc3333" />
+  <img src="https://img.shields.io/github/last-commit/Seysane/pracuj_offer_scraper.svg?color=3776AB" />
 </p>
 
 <p align="center"><i>Automated job offer scraper for Pracuj.pl built with Playwright and BeautifulSoup.</i></p>
