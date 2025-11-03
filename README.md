@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Playwright-1.49-3776AB" />
   <img src="https://img.shields.io/badge/BeautifulSoup-4.12-3776AB" />
   <img src="https://img.shields.io/badge/License-MIT-6BAF92.svg" />
-  <img src="https://img.shields.io/badge/Status-Active-success-2EAD33.svg" />
+  <img src="https://img.shields.io/badge/Status-Active-success.svg?color=2EAD33" />
 </p>
 
 <p align="center">
