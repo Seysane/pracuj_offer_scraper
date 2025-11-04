@@ -187,8 +187,9 @@ Terminal Run Example
 > Yes, as long as you comply with Pracuj.pl’s ToS and the MIT License.
 
 <h2 id="license">License <span style="float:right">⚖️</span></h2>
+
 This project is licensed under the **MIT License**.  
-See the [`LICENSE`](LICENSE) file for full details.
+See the [LICENSE](https://github.com/Seysane/pracuj_offer_scraper/blob/main/LICENSE) file for full details.
 
 <h2 id="author">Author <span style="float:right">👨‍💻</span></h2>
 
