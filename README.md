@@ -191,6 +191,7 @@ This project is licensed under the **MIT License**.
 See the [`LICENSE`](LICENSE) file for full details.
 
 <h2 id="author">Author <span style="float:right">👨‍💻</span></h2>
+
 Created by **Sebastian Siciński**  
 📧 [itsbastian.kontakt@gmail.com](mailto:itsbastian.kontakt@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/sebastian-sici%C5%84ski-b74096243/)  
