@@ -23,6 +23,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Command Line Interface](#cli)
 - [Project Structure](#project-structure)
 - [Example Output](#example-output)
 - [Screenshots](#screenshots)
@@ -76,9 +77,9 @@ pip install -r requirements.txt
 ```
 ```bash
 # Install Chromium for Playwright (required!)
-playwright install chromium
+npx playwright install chromium
 # Or
-playwright install  # installs Chromium, Firefox, WebKit
+npx playwright install  # installs Chromium, Firefox, WebKit
 ```
 
 <h2 id="usage">Usage <span style="float:right">🚀</span></h2>
@@ -97,6 +98,39 @@ The scraper will:
 ```
 CSV_DATA/  → CSV file sorted alphabetically by company
 JSON_DATA/ → JSON file grouped by company
+```
+
+[🔼 Back to top](#pracujpl-job-offer-scraper)
+
+<h2 id="cli">Command Line Interface (CLI) <span style="float:right">🚩</span></h2>
+
+The scraper can be run interactively or using CLI flags for automation and scripting.
+
+---
+
+### Available Flags
+
+| Flag | Description |
+|------|--------------|
+| `--help`, `-h` | Show all available CLI flags and exit |
+| `--keyword KEYWORD` | Search for a specific keyword (e.g. `python`, `java`, `remote`) |
+| `--max-pages INT` | Limit the number of pages to scrape (optional) |
+| `--no-json` | Skip saving JSON output |
+| `--no-csv` | Skip saving CSV output |
+
+---
+
+### Examples
+
+```bash
+# Interactive mode (asks for keyword)
+python main.py
+
+# Scrape all offers for "python"
+python main.py --keyword python
+
+# Scrape up to 3 pages and save only CSV
+python main.py --keyword python --max-pages 3 --no-json
 ```
 
 <h2 id="project-structure">Project Structure <span style="float:right">📂</span></h2>
@@ -142,6 +176,9 @@ Sii Sp. z o.o.,Python Automation Tester,Gdańsk,https://www.pracuj.pl/...,"-"
 
 <h2 id="screenshots">Screenshots <span style="float:right">📸</span></h2>
 
+Command Line Interface --help, -h Preview
+![CLI Preview](screenshots/cli_help_preview.png)
+
 CSV Preview  
 ![CSV Preview](screenshots/csv_preview.png)
 
@@ -153,18 +190,23 @@ Terminal Run Example
 
 <h2 id="tech-stack">Tech Stack <span style="float:right">🧩</span></h2>
 
-- Python 3.12.7 — Core language  
-- [Playwright](https://playwright.dev/) — Browser automation  
-- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) — HTML parsing  
-- pandas — Dataset processing & CSV export  
-- json — Grouped output format  
-- datetime — Timestamp handling  
+- Python 3.12.7 - Core language  
+- [Playwright](https://playwright.dev/) - Browser automation
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - HTML parsing
+- pandas - Dataset processing & CSV export
+- json - Grouped output format
+- datetime - Timestamp handling
+- argparse - CLI handling
+
+[🔼 Back to top](#pracujpl-job-offer-scraper)
 
 <h2 id="future-improvements">Future Improvements <span style="float:right">🔮</span></h2>
 
-- Add CLI flags (`--keyword`, `--no-csv`, `--max-pages`)
-- Add filtering (remote only, salary range, location)
-- Add export to Excel or database
+- [x] Add CLI flags (`--keyword`, `--no-csv`, `--max-pages`)
+- [ ] Add filtering (remote only, salary range, location)
+- [ ] Add multi-source scraping (LinkedIn, NoFluffJobs, Protocol.it and more)
+- [ ] Create local dashboard (GUI/Web) for viewing scraped data
+- [ ] Integrate “one-click CV apply” functionality via Pracuj.pl form automation
 
 <h2 id="faq">FAQ <span style="float:right">❓</span></h2>
 
@@ -201,5 +243,33 @@ Created by **Sebastian Siciński**
 ---
 
 ⭐ If you find this project useful, consider giving it a star!
+
+<h2 id="version-history">Version History <span style="float:right">🧾</span></h2>
+
+#### v1.2 — 11 Nov 2025  
+**CLI Update and Automation Enhancements**
+- Added Command Line Interface (CLI) with new flags:
+  - `--keyword` — search for specific job keywords
+  - `--max-pages` — set limit of pages to scrape
+  - `--no-json` / `--no-csv` — skip selected output formats
+- Updated README with CLI documentation and examples
+- Added more 🔼 Back to top Anchors
+
+---
+
+#### v1.1 — 04 Nov 2025  
+**Documentation & README Overhaul**
+- Reworked README.md layout and formatting 
+- Fixed anchors and section navigation  
+
+---
+
+#### v1.0 — 03 Nov 2025  
+**Initial Public Release**
+- First release of the Pracuj.pl Job Offer Scraper  
+- Implemented Playwright + BeautifulSoup scraping logic  
+- Added CSV and JSON export  
+- Sorted CSV alphabetically and grouped JSON by company  
+- Created project folder structure (`CSV_DATA/`, `JSON_DATA/`)
 
 [🔼 Back to top](#pracujpl-job-offer-scraper)
