@@ -150,7 +150,7 @@ pracuj_offer_scraper/
 ### CSV Example
 ```
 company,title,location,link,salary
-EPAM Systems,Azure Engineering Manager,Kraków,https://www.pracuj.pl/...,"No information provided"
+EPAM Systems,Azure Engineering Manager,Kraków,https://www.pracuj.pl/...,"N/A"
 Sii Sp. z o.o.,Python Automation Tester,Gdańsk,https://www.pracuj.pl/...,"-"
 ```
 
@@ -163,13 +163,13 @@ Sii Sp. z o.o.,Python Automation Tester,Gdańsk,https://www.pracuj.pl/...,"-"
       "title": "Software Engineer II - YouTube Ads",
       "location": "Warszawa, Śródmieście",
       "link": "https://www.pracuj.pl/praca/software-engineer-ii-youtube-ads-warszawa-emilii-plater-53,oferta,1004410373",
-      "salary": "No information provided"
+      "salary": "N/A"
     },
     {
       "title": "Senior Software Engineer - Android ML Services",
       "location": "Kraków",
       "link": "https://www.pracuj.pl/praca/senior-software-engineer-android-ml-services-krakow,oferta,1004410339",
-      "salary": "No information provided"
+      "salary": "N/A"
     }
   ]
 }
