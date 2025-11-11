@@ -32,6 +32,7 @@
 - [FAQ](#faq)
 - [License](#license)
 - [Author](#author)
+- [Version History](#version-history)
 
 <h2 id="about">About <span style="float:right">🧠</span></h2>
 
