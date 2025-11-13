@@ -207,7 +207,7 @@ Terminal Run Example
 - [ ] Add filtering (remote only, salary range, location)
 - [ ] Add multi-source scraping (LinkedIn, NoFluffJobs, Protocol.it and more)
 - [ ] Create local dashboard (GUI/Web) for viewing scraped data
-- [ ] Integrate “one-click CV apply” functionality via Pracuj.pl form automation
+- [ ] Integrate “one-click CV apply” functionality for scraped offers
 
 <h2 id="faq">FAQ <span style="float:right">❓</span></h2>
 
